@@ -17,7 +17,7 @@ jobs:
           path: |
             ~/.cache/bazelisk
             ~/.cache/bazel
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ github.ref }}
+          key: ${{ runner.os }}-${{ env.cache-name }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-development
 
