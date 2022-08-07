@@ -29,3 +29,6 @@ jobs:
       # build
       - name: Build the code
         run: bazel build //...
+
+      # - name: Run the test
+      #   run: bazel test //...
